@@ -454,6 +454,10 @@ img {
   text-transform: uppercase;
 }
 
+.trends-title h2 a {
+  color: inherit;
+}
+
 .trends-blocks-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -857,6 +861,10 @@ img {
   text-transform: uppercase;
 }
 
+.good-title a {
+  color: inherit;
+}
+
 .good-bottom {
   margin-top: 20px;
   display: flex;
@@ -890,6 +898,7 @@ img {
   padding: 20px 30px;
   color: #fff;
   background-color: #b59f5b;
+  cursor: pointer;
 }
 
 .footer-wrapper {
@@ -959,4 +968,3 @@ img {
 ._hidden {
   display: none;
 }
-/*# sourceMappingURL=main.css.map */
