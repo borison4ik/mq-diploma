@@ -19,6 +19,9 @@
             <p>Как часто вы заходите на сайт</p>
             <select class="form-select" name="howOften">
               <option value="Почти каздый день">Почти каждый день</option>
+              <option value="Раз в несколько дней">Раз в несколько дней</option>
+              <option value="Раз в несколько недель">Раз в несколько недель</option>
+              <option value="Несколько раз в год">Несколько раз в год</option>
             </select>
           </div>
           <div class="popup-field">
@@ -80,8 +83,7 @@
           <h2>сейчас в тренде</h2>
         </div>
         <div class="trends-blocks-wrapper">
-          <article class="trends-block">
-            <img class="trends-img" src="img/trend1.jpg" alt="Тренд 1" />
+          <article class="trends-block" style="background-image: url(img/trend1.jpg)">
             <div class="trends-title">
               <ul class="trends-tag-list">
                 <li><a href="#">Lifestyle</a></li>
@@ -92,8 +94,7 @@
               </h2>
             </div>
           </article>
-          <article class="trends-block">
-            <img class="trends-img" src="img/trend2.jpg" alt="Тренд 2" />
+          <article class="trends-block" style="background-image: url(img/trend2.jpg)">
             <div class="trends-title">
               <ul class="trends-tag-list">
                 <li><a href="#">food</a></li>
@@ -105,8 +106,7 @@
               </h2>
             </div>
           </article>
-          <article class="trends-block">
-            <img class="trends-img" src="img/trend3.jpg" alt="Тренд 3" />
+          <article class="trends-block" style="background-image: url(img/trend3.jpg)">
             <div class="trends-title">
               <ul class="trends-tag-list">
                 <li><a href="#">Lifestyle</a></li>
@@ -115,8 +115,7 @@
               <h2><a class="trends-title-link" href="#">СОБИРАЕМСЯ В ПЕРВЫЙ ПОХОД В ГОРЫ</a></h2>
             </div>
           </article>
-          <article class="trends-block">
-            <img class="trends-img" src="img/trend4.jpg" alt="Тренд 4" />
+          <article class="trends-block" style="background-image: url(img/trend4.jpg)">
             <div class="trends-title">
               <ul class="trends-tag-list">
                 <li><a href="#">food</a></li>
@@ -138,6 +137,7 @@
               <img
                 src="img/last-post1.jpg"
                 alt="10 мест, ради которых стоит проснуться на рассвете"
+                title="10 мест, ради которых стоит проснуться на рассвете"
               />
             </div>
             <div class="post-description">
@@ -165,6 +165,8 @@
               <img
                 src="img/last-post2.jpg"
                 alt="Йога для начинающих в
+                  домашних условиях"
+                title="Йога для начинающих в
                   домашних условиях"
               />
             </div>
@@ -295,7 +297,7 @@
                 <div class="last-post-description">
                   <time datetime="2019-06-14" class="last-post-date">14 июня 2019</time>
                   <div class="last-post-title">
-                    <h3>10 мест, ради которых стоит проснуться на рассвете</h3>
+                    <h3><a href="#">10 мест, ради которых стоит проснуться на рассвете</a></h3>
                   </div>
                 </div>
               </article>
@@ -306,7 +308,7 @@
                 <div class="last-post-description">
                   <time datetime="2019-06-14" class="last-post-date">14 июня 2019</time>
                   <div class="last-post-title">
-                    <h3>Йога для домашних</h3>
+                    <h3><a href="#">Йога для домашних</a></h3>
                   </div>
                 </div>
               </article>
@@ -321,7 +323,7 @@
                 <div class="last-post-description">
                   <time datetime="2019-06-14" class="last-post-date">14 июня 2019</time>
                   <div class="last-post-title">
-                    <h3>как мы превратили классное место в балкон</h3>
+                    <h3><a href="#">как мы превратили классное место в балкон</a></h3>
                   </div>
                 </div>
               </article>
@@ -336,7 +338,7 @@
                 <div class="last-post-description">
                   <time datetime="2019-06-14" class="last-post-date">14 июня 2019</time>
                   <div class="last-post-title">
-                    <h3>Кулинарный подход к науке</h3>
+                    <h3><a href="#">Кулинарный подход к науке</a></h3>
                   </div>
                 </div>
               </article>
@@ -351,7 +353,7 @@
                 <div class="last-post-description">
                   <time datetime="2019-06-14" class="last-post-date">14 июня 2019</time>
                   <div class="last-post-title">
-                    <h3>лучшие прически для распущенных волос</h3>
+                    <h3><a href="#">лучшие прически для распущенных волос</a></h3>
                   </div>
                 </div>
               </article>
@@ -457,60 +459,11 @@
               <picture>
                 <source srcset="img/shop-item-mobile1.jpg" media="(max-width: 768px)" />
                 <source srcset="img/shop-item-tablet1.jpg" media="(max-width: 1200px)" />
-                <img src="img/shop-item-desk1.jpg" alt="Подушки на диван" />
-              </picture>
-            </div>
-            <div class="good-body">
-              <div class="good-desc">
-                <h2 class="good-title"><a href="#">Подушки на диван</a></h2>
-                <p>
-                  Набор из двух подушек с модными принтами. Видео о создании <a href="#">здесь</a>
-                </p>
-              </div>
-              <div class="good-bottom">
-                <div class="good-price">
-                  <span class="good-price-old">1000 ₽</span>
-                  <span class="good-price-old">800 ₽</span>
-                </div>
-                <div class="good-order">
-                  <button class="btn">в магазин</button>
-                </div>
-              </div>
-            </div>
-          </article>
-          <article class="good">
-            <div class="good-img">
-              <picture>
-                <source srcset="img/shop-item-mobile2.jpg" media="(max-width: 768px)" />
-                <source srcset="img/shop-item-tablet2.jpg" media="(max-width: 1200px)" />
-                <img src="img/shop-item-desk2.jpg" alt="Кукла «Зайчик»" />
-              </picture>
-            </div>
-            <div class="good-body">
-              <div class="good-desc">
-                <h2 class="good-title"><a href="#">Кукла «Зайчик»</a></h2>
-                <p>
-                  Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена
-                  <a href="#">весенняя серия постов</a> в блоге и несколько подкастов.
-                </p>
-              </div>
-              <div class="good-bottom">
-                <div class="good-price">
-                  <span class="good-price-old">1000 ₽</span>
-                  <span class="good-price-old">800 ₽</span>
-                </div>
-                <div class="good-order">
-                  <button class="btn">в магазин</button>
-                </div>
-              </div>
-            </div>
-          </article>
-          <article class="good">
-            <div class="good-img">
-              <picture>
-                <source srcset="img/shop-item-mobile1.jpg" media="(max-width: 768px)" />
-                <source srcset="img/shop-item-tablet1.jpg" media="(max-width: 1200px)" />
-                <img src="img/shop-item-desk1.jpg" alt="Подушки на диван" />
+                <img
+                  src="img/shop-item-desk1.jpg"
+                  alt="Подушки на диван"
+                  title="Подушки на диван"
+                />
               </picture>
             </div>
             <div class="good-body">
@@ -524,6 +477,64 @@
                 <div class="good-price">
                   <span class="good-price-old">1000 ₽</span>
                   <span class="good-price-new">800 ₽</span>
+                </div>
+                <div class="good-order">
+                  <button class="btn">в магазин</button>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="good">
+            <div class="good-img">
+              <picture>
+                <source srcset="img/shop-item-mobile2.jpg" media="(max-width: 768px)" />
+                <source srcset="img/shop-item-tablet2.jpg" media="(max-width: 1200px)" />
+                <img src="img/shop-item-desk2.jpg" alt="Кукла «Зайчик»" title="Кукла «Зайчик»" />
+              </picture>
+            </div>
+            <div class="good-body">
+              <div class="good-desc">
+                <h2 class="good-title"><a href="#">Кукла «Зайчик»</a></h2>
+                <p>
+                  Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена
+                  <a href="#">весенняя серия постов</a> в блоге и несколько подкастов.
+                </p>
+              </div>
+              <div class="good-bottom">
+                <div class="good-price">
+                  <span class="good-price-old"></span>
+                  <span class="good-price-new">3500 ₽</span>
+                </div>
+                <div class="good-order">
+                  <button class="btn">в магазин</button>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="good">
+            <div class="good-img">
+              <picture>
+                <source srcset="img/shop-item-mobile3.jpg" media="(max-width: 768px)" />
+                <source srcset="img/shop-item-tablet3.jpg" media="(max-width: 1200px)" />
+                <img
+                  src="img/shop-item-desk3.jpg"
+                  alt="Подушки на диван"
+                  title="Подушки на диван"
+                />
+              </picture>
+            </div>
+            <div class="good-body">
+              <div class="good-desc">
+                <h2 class="good-title"><a href="#">Шестиугольная рамка</a></h2>
+                <p>
+                  Необычная рамка для украшения дома из видео
+                  <a href="#">«Как сделать рамку из подручных средств за 30 минут»</a>
+                </p>
+              </div>
+              <div class="good-bottom">
+                <div class="good-price">
+                  <span class="good-price-old">500 ₽</span>
+                  <span class="good-price-new">400 ₽</span>
                 </div>
                 <div class="good-order">
                   <button class="btn">в магазин</button>
