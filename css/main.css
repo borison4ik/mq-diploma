@@ -374,18 +374,18 @@ img {
 }
 
 .header-intro {
-  margin-top: 45px;
+  margin: 45px auto 0;
 }
 
 @media screen and (min-width: 768px) {
   .header-intro {
-    margin-top: 140px;
+    margin-top: 100px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .header-intro {
-    margin: 205px auto 0;
+    margin-top: 120px;
     max-width: 690px;
   }
 }
@@ -500,6 +500,12 @@ img {
   border: 3px solid #b59f5b;
 }
 
+@media screen and (min-width: 768px) {
+  .trends-title {
+    padding: 35px 30px;
+  }
+}
+
 .trends-blocks-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -604,6 +610,12 @@ img {
   transition: all 0.3s ease-in-out;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .trends-title-link {
+    font-size: 17px;
+  }
 }
 
 .trends-title-link:hover {
