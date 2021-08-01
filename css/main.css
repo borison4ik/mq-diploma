@@ -628,14 +628,17 @@ img {
   border-bottom: 3px solid #eee;
 }
 
+@media screen and (min-width: 768px) {
+  .post:first-child {
+    margin-top: 0;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .post {
     display: flex;
     border-bottom: none;
     padding-bottom: 0;
-  }
-  .post:first-child {
-    margin-top: 0;
   }
 }
 
